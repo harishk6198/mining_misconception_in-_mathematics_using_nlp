@@ -1,0 +1,153 @@
+{% extends "layout.html" %}
+
+{% block title %}Dashboard - Mathematical Misconception Detector{% endblock %}
+
+{% block content %}
+<div class="row">
+    <!-- Left column - Main dashboard content -->
+    <div class="col-lg-8">
+        <!-- Model status card -->
+        <div class="row mb-4">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <!-- Model status indicator -->
+                    <div class="status-indicator {% if 'Not Trained' in model_status %}error{% endif %}">
+                        <div class="icon">🤖</div>
+                        <div class="content">
+                            <h4>Model Status</h4>
+                            <p id="model-status">{{ model_status }}</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Generate test predictions button -->
+                    <button id="generate-predictions-btn" class="btn btn-primary">
+                        <i class="fas fa-chart-bar me-1"></i> Generate Test Predictions
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Dashboard view -->
+        <div class="card">
+            <h3 class="card-header">Detection Dashboard</h3>
+            
+            <!-- Stats Cards - 3 columns -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">{{ stats.analyzed }}</div>
+                        <div class="stat-label">Questions Analyzed</div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">{{ stats.misconceptions }}</div>
+                        <div class="stat-label">Total Misconceptions</div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-value">{{ stats.with_misconceptions }}</div>
+                        <div class="stat-label">Questions with Issues</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Chart -->
+            {% if stats.analyzed > 0 %}
+            <h4 class="card-header mt-4">Misconception Distribution</h4>
+            <div id="chart-container" class="chart-container">
+                <canvas id="pie-chart"></canvas>
+            </div>
+            {% endif %}
+        </div>
+        
+        <!-- Sample Misconception Categories -->
+        <div class="card mt-4">
+            <h3 class="card-header">Common Misconception Categories</h3>
+            
+            {% if sample_misconceptions %}
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Misconception ID</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for misconception in sample_misconceptions %}
+                        <tr>
+                            <td>{{ misconception.id }}</td>
+                            <td>{{ misconception.description }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-muted ms-3">Showing {{ sample_misconceptions|length }} of {{ misconception_mapping|length if misconception_mapping else 0 }} total misconception categories</p>
+            {% else %}
+            <p class="text-center my-4">No misconception categories loaded yet.</p>
+            {% endif %}
+        </div>
+    </div>
+    
+    <!-- Right column - Info cards -->
+    <div class="col-lg-4">
+        <!-- About the Model Card -->
+        <div class="card">
+            <h3 class="card-header">About the Model</h3>
+            <div class="card-body">
+                <p>
+                    This application uses machine learning to detect educational misconceptions in 
+                    mathematical questions. It analyzes questions and their correct answers to identify 
+                    patterns that might indicate a misunderstanding of key concepts.
+                </p>
+                
+                <h5 class="mt-4 mb-3">Key features:</h5>
+                <ul>
+                    <li>Natural language processing of mathematical text</li>
+                    <li>Multi-label classification of potential misconceptions</li>
+                    <li>Interactive visualization of analysis results</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- How it Works Card -->
+        <div class="card mt-4">
+            <h3 class="card-header">How it Works</h3>
+            <div class="card-body">
+                <ol>
+                    <li><strong>Upload Questions</strong>: Provide a CSV file with questions and answers</li>
+                    <li><strong>Analysis</strong>: The model processes the text using NLP techniques</li>
+                    <li><strong>Identification</strong>: Potential misconceptions are detected</li>
+                    <li><strong>Results</strong>: Detailed analysis with visualizations is generated</li>
+                </ol>
+            </div>
+        </div>
+        
+        <!-- Getting Started Card -->
+        <div class="card mt-4">
+            <h3 class="card-header">Getting Started 💡</h3>
+            <div class="card-body">
+                <div class="d-grid">
+                    <a href="{{ url_for('analyze') }}" class="btn btn-primary mb-3">
+                        <i class="fas fa-upload me-2"></i> Upload Questions
+                    </a>
+                </div>
+                <p>
+                    Upload a CSV file containing mathematical questions and answers to analyze for potential misconceptions.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Add any page-specific JavaScript here
+</script>
+{% endblock %}

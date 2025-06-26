@@ -1,0 +1,847 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/* Modern color scheme and fonts */
+:root {
+    --primary-color: #7c3aed;
+    --secondary-color: #c026d3;
+    --accent-color: #8b5cf6;
+    --light-color: #e0e7ff;
+    --dark-color: #1e1b4b;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --danger-color: #ef4444;
+    --card-bg: rgba(49, 46, 129, 0.6);
+    --gradient-start: #4f46e5;
+    --gradient-end: #7c3aed;
+    
+    /* Custom font variables */
+    --heading-font: 'Outfit', sans-serif;
+    --body-font: 'Poppins', sans-serif; 
+    --mono-font: 'Space Grotesk', monospace;
+}
+
+/* Global styles */
+body {
+    font-family: var(--body-font);
+    background: #0c0b1f;
+    color: #e0e7ff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, .heading-text {
+    font-family: var(--heading-font) !important;
+    color: var(--light-color);
+}
+
+code, pre, .mono-text {
+    font-family: var(--mono-font) !important;
+}
+
+.content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Navbar styling */
+.navbar {
+    background: rgba(14, 13, 38, 0.9) !important;
+    border-bottom: 1px solid rgba(124, 58, 237, 0.3);
+}
+
+.navbar-brand {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--light-color) !important;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+    color: var(--light-color) !important;
+    font-family: var(--body-font);
+    font-weight: 500;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--accent-color) !important;
+    transform: translateY(-2px);
+}
+
+.nav-link.active {
+    color: var(--accent-color) !important;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+/* Main header styling */
+.main-header {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: white;
+    margin: 0.5rem auto 1.5rem auto;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    max-width: 90%;
+    background: linear-gradient(90deg, #f43f5e 0%, #d946ef 50%, #6366f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 15px rgba(209, 70, 239, 0.5);
+    letter-spacing: -1px;
+    z-index: 1;
+    line-height: 1.2;
+}
+
+.main-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(244, 63, 94, 0.1) 0%, rgba(217, 70, 239, 0.15) 50%, rgba(99, 102, 241, 0.1) 100%);
+    border-radius: 1rem;
+    z-index: -1;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px rgba(217, 70, 239, 0.3);
+    }
+    to {
+        box-shadow: 0 0 20px rgba(217, 70, 239, 0.6);
+    }
+}
+
+.main-subheader {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #a5b4fc;
+    text-align: center;
+    margin: -1rem 0 2rem 0;
+}
+
+/* Card styling */
+.card {
+    background: var(--card-bg);
+    border-radius: 1rem;
+    padding: 2.2rem;
+    margin-bottom: 2.5rem;
+    border: 1px solid rgba(124, 58, 237, 0.2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(124, 58, 237, 0.4);
+}
+
+.card-header {
+    font-family: var(--heading-font) !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #a5b4fc;
+    margin-bottom: 1.2rem;
+    border-bottom: 2px solid rgba(124, 58, 237, 0.2);
+    padding-bottom: 0.8rem;
+}
+
+/* Statistics card styling */
+.stat-card {
+    text-align: center;
+    padding: 1.8rem;
+    background: rgba(124, 58, 237, 0.15);
+    border-radius: 1rem;
+    border-left: 4px solid var(--primary-color);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+    height: 100%;
+    margin: 0.5rem 0;
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+    background: rgba(124, 58, 237, 0.25);
+}
+
+.stat-value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #a5b4fc;
+    margin-bottom: 0.3rem;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #d1d5db;
+    font-weight: 500;
+}
+
+/* Button styling */
+.btn-primary {
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    border: none;
+    font-weight: 600;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(124, 58, 237, 0.3);
+    background: linear-gradient(90deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+}
+
+/* Section title */
+.section-title {
+    font-family: var(--heading-font) !important;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #a5b4fc;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid rgba(124, 58, 237, 0.2);
+    letter-spacing: -0.5px;
+}
+
+/* Info box styling */
+.info-box {
+    background: rgba(124, 58, 237, 0.15);
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: var(--body-font);
+    border-left: 4px solid var(--primary-color);
+}
+
+.info-box-icon {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.info-box-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #a5b4fc;
+    font-family: var(--body-font);
+}
+
+.info-box-text {
+    font-size: 14px;
+    color: #c4b5fd;
+    font-family: var(--body-font);
+}
+
+/* Card content spacing */
+.card-content {
+    padding: 1rem 0;
+}
+
+/* Process steps styling */
+.process-step {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-family: var(--body-font);
+}
+
+.step-number {
+    background: rgba(124, 58, 237, 0.3);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: var(--body-font);
+}
+
+.step-content-title {
+    font-weight: bold;
+    color: #a5b4fc;
+    font-family: var(--body-font);
+}
+
+.step-content-desc {
+    color: #c4b5fd;
+    font-size: 14px;
+    font-family: var(--body-font);
+}
+
+/* Alerts styling */
+.alert-success {
+    background-color: rgba(16, 185, 129, 0.15) !important;
+    border-left: 4px solid var(--success-color) !important;
+    color: #a7f3d0 !important;
+}
+
+.alert-warning {
+    background-color: rgba(245, 158, 11, 0.15) !important;
+    border-left: 4px solid var(--warning-color) !important;
+    color: #fcd34d !important;
+}
+
+.alert-danger {
+    background-color: rgba(239, 68, 68, 0.15) !important;
+    border-left: 4px solid var(--danger-color) !important;
+    color: #fca5a5 !important;
+}
+
+/* Table styling */
+.table {
+    background: rgba(49, 46, 129, 0.6);
+    color: var(--light-color);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background: rgba(124, 58, 237, 0.2);
+    color: #e0e7ff;
+    font-weight: 600;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.table td {
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Custom file input styling */
+.custom-file-upload {
+    background: rgba(124, 58, 237, 0.15);
+    border: 1px dashed rgba(124, 58, 237, 0.5);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.custom-file-upload:hover {
+    background: rgba(124, 58, 237, 0.25);
+}
+
+.custom-file-upload i {
+    font-size: 40px;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+.custom-file-upload p {
+    color: var(--light-color);
+}
+
+/* Charts container */
+.chart-container {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+/* Status indicator */
+.status-indicator {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    background: rgba(16, 185, 129, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 4px solid #10b981;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status-indicator.error {
+    background: rgba(239, 68, 68, 0.1);
+    border-left: 4px solid #ef4444;
+}
+
+.status-indicator .icon {
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+.status-indicator .content h4 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #a7f3d0;
+    margin: 0 0 5px 0;
+}
+
+.status-indicator.error .content h4 {
+    color: #fca5a5;
+}
+
+.status-indicator .content p {
+    font-size: 16px;
+    color: #d1fae5;
+    margin: 0;
+}
+
+.status-indicator.error .content p {
+    color: #fee2e2;
+}
+
+/* For dark theme appearance in custom cards */
+.bg-dark {
+    background-color: var(--card-bg) !important;
+}
+
+/* Custom tab styling */
+.nav-tabs {
+    border-bottom: 1px solid rgba(124, 58, 237, 0.3);
+}
+
+.nav-tabs .nav-link {
+    color: #a5b4fc;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: rgba(124, 58, 237, 0.1);
+    border-color: transparent;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgba(124, 58, 237, 0.2);
+    color: white !important;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+/* Form control styling */
+.form-control {
+    background-color: rgba(49, 46, 129, 0.4);
+    border: 1px solid rgba(124, 58, 237, 0.3);
+    color: var(--light-color);
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    background-color: rgba(49, 46, 129, 0.6);
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 0.25rem rgba(139, 92, 246, 0.25);
+    color: white;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Footer styling */
+footer {
+    background: rgba(14, 13, 38, 0.9);
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid rgba(124, 58, 237, 0.3);
+    margin-top: 50px;
+    font-family: var(--body-font);
+}
+
+footer p {
+    margin: 0;
+    color: #a5b4fc;
+}
+
+/* Background effects */
+.stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.imgur.com/YKY28eT.png') repeat;
+    z-index: -2;
+}
+
+.twinkling {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: transparent url('https://i.imgur.com/XYMF4ca.png') repeat;
+    animation: move-twink-back 200s linear infinite;
+}
+
+@keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 10000px 5000px;
+    }
+}
+
+/* Helper classes */
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.shadow-sm {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Misconception explanation styles */
+.misconception-item {
+    border-left: 3px solid var(--primary-color);
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.explanation-card {
+    background-color: rgba(124, 58, 237, 0.1);
+    border: 1px solid rgba(124, 58, 237, 0.3);
+    border-radius: 8px;
+}
+
+.explanation-card h6 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Fix for hover text color throughout the application */
+.tooltip-inner {
+    color: white !important;
+    background-color: rgba(49, 46, 129, 0.9) !important;
+    border: 1px solid var(--primary-color) !important;
+}
+
+/* Tooltip and popover targeting */
+[data-bs-toggle="tooltip"], 
+[data-toggle="tooltip"],
+.popover,
+.tooltip,
+.tooltip-inner {
+    color: white !important;
+}
+
+/* Target specific cards and elements common in the application */
+.card:hover h1, .card:hover h2, .card:hover h3, 
+.card:hover h4, .card:hover h5, .card:hover h6,
+.card:hover p, .card:hover span, .card:hover div,
+.card:hover a:not(.btn), .card:hover li,
+.list-group-item:hover, .list-group-item:hover *,
+.misconception-item:hover, .misconception-item:hover *,
+.explanation-card:hover, .explanation-card:hover *,
+.table tr:hover, .table tr:hover td, .table tr:hover th,
+.table tr:hover a, .table tr:hover span,
+.accordion-button:hover, .accordion-button:hover * {
+    color: white !important;
+}
+
+/* Preserve special colors for buttons and primary elements */
+.btn:hover, 
+.btn-primary:hover,
+.navbar-brand:hover {
+    color: var(--light-color) !important;
+}
+
+/* Keep dropdown menus text white */
+.dropdown-menu,
+.dropdown-item,
+.dropdown-menu:hover,
+.dropdown-item:hover,
+.dropdown-menu *,
+.dropdown-menu *:hover {
+    color: white !important;
+}
+
+/* Force white text for misconception categories and all tables */
+table.table-hover tr:hover td,
+table.table-hover tr:hover th,
+table.table tr:hover td,
+table.table tr:hover th {
+    color: white !important;
+    background-color: rgba(124, 58, 237, 0.5) !important;
+}
+
+/* Global table hover styles to ensure consistent white text */
+.table-hover tbody tr:hover * {
+    color: white !important;
+}
+
+.accordion-item {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    background-color: var(--card-bg);
+    color: var(--light-color);
+    font-family: var(--heading-font);
+    font-weight: 500;
+    padding: 12px 16px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(124, 58, 237, 0.3);
+    color: var(--light-color);
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(124, 58, 237, 0.3);
+}
+
+.accordion-button::after {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.accordion-body {
+    background-color: rgba(31, 41, 55, 0.8);
+    color: var(--light-color);
+    padding: 16px;
+}
+
+.accordion-body h5 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+/* COMPREHENSIVE HOVER COLOR FIXES - ENSURES ALL TEXT STAYS WHITE */
+/* Universal hover text color override */
+*:hover, 
+*:hover *,
+div:hover,
+div:hover *,
+span:hover,
+span:hover *,
+p:hover,
+p:hover *,
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover,
+h1:hover *, h2:hover *, h3:hover *, h4:hover *, h5:hover *, h6:hover *,
+li:hover,
+li:hover *,
+ul:hover,
+ul:hover *,
+ol:hover,
+ol:hover *,
+td:hover,
+td:hover *,
+th:hover,
+th:hover *,
+tr:hover,
+tr:hover *,
+table:hover,
+table:hover *,
+.table:hover,
+.table:hover *,
+.card:hover,
+.card:hover *,
+.nav-tabs:hover,
+.nav-tabs:hover *,
+.nav-link:hover,
+.nav-link:hover *,
+.alert:hover,
+.alert:hover *,
+.list-group-item:hover,
+.list-group-item:hover *,
+.form-control:hover,
+.form-control:hover *,
+.input-group:hover,
+.input-group:hover *,
+.accordion:hover,
+.accordion:hover *,
+.accordion-item:hover,
+.accordion-item:hover *,
+.accordion-button:hover,
+.accordion-button:hover *,
+.accordion-body:hover,
+.accordion-body:hover *,
+.dashboard-card:hover,
+.dashboard-card:hover *,
+.misconception-card:hover,
+.misconception-card:hover *,
+.misconception-item:hover,
+.misconception-item:hover *,
+.explanation-card:hover,
+.explanation-card:hover *,
+.stats-container:hover,
+.stats-container:hover *,
+.chart-container:hover,
+.chart-container:hover *,
+.info-box:hover,
+.info-box:hover *,
+.status-indicator:hover,
+.status-indicator:hover *,
+label:hover,
+label:hover *,
+small:hover,
+small:hover *,
+.text-muted:hover,
+.text-secondary:hover,
+.text-info:hover,
+.text-primary:hover,
+.text-success:hover,
+.text-warning:hover,
+.text-danger:hover,
+.stat-value:hover,
+.stat-label:hover,
+.section-title:hover,
+.card-header:hover,
+.info-box-title:hover,
+.info-box-text:hover {
+    color: white !important;
+}
+
+/* Table specific hover fixes */
+table tr:hover td, 
+table tr:hover th,
+.table tr:hover td,
+.table tr:hover th,
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th,
+tbody tr:hover td,
+tbody tr:hover th,
+thead tr:hover th,
+.table tbody tr:hover,
+.table tbody tr:hover *,
+.table thead tr:hover,
+.table thead tr:hover * {
+    color: white !important;
+    background-color: rgba(124, 58, 237, 0.5) !important;
+}
+
+/* Navigation tabs hover fixes */
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link.active:hover,
+.nav-tabs .nav-link:hover *,
+.nav-tabs .nav-link.active:hover * {
+    color: white !important;
+    background-color: rgba(124, 58, 237, 0.3) !important;
+}
+
+/* Button hover fixes - preserve button styling but ensure white text */
+.btn:hover,
+.btn:hover *,
+.btn-primary:hover,
+.btn-primary:hover *,
+.btn-secondary:hover,
+.btn-secondary:hover *,
+.btn-success:hover,
+.btn-success:hover *,
+.btn-warning:hover,
+.btn-warning:hover *,
+.btn-danger:hover,
+.btn-danger:hover * {
+    color: white !important;
+}
+
+/* Form elements hover fixes */
+.form-control:hover,
+.form-select:hover,
+.input-group:hover,
+.form-control:hover *,
+.form-select:hover *,
+.input-group:hover * {
+    color: white !important;
+}
+
+/* Alert boxes hover fixes */
+.alert:hover,
+.alert:hover *,
+.alert-info:hover,
+.alert-info:hover *,
+.alert-success:hover,
+.alert-success:hover *,
+.alert-warning:hover,
+.alert-warning:hover *,
+.alert-danger:hover,
+.alert-danger:hover * {
+    color: white !important;
+}
+
+/* List items hover fixes */
+.list-group:hover,
+.list-group:hover *,
+.list-group-item:hover,
+.list-group-item:hover * {
+    color: white !important;
+    background-color: rgba(124, 58, 237, 0.3) !important;
+}
+
+/* Links hover fixes - but preserve special link colors */
+a:hover:not(.btn):not(.nav-link),
+a:hover:not(.btn):not(.nav-link) * {
+    color: white !important;
+}
+
+/* Dropdown menus hover fixes */
+.dropdown-menu:hover,
+.dropdown-menu:hover *,
+.dropdown-item:hover,
+.dropdown-item:hover * {
+    color: white !important;
+}
+
+/* Custom file upload hover fixes */
+.custom-file-upload:hover,
+.custom-file-upload:hover * {
+    color: white !important;
+}
+
+/* Tooltip and popover hover fixes */
+.tooltip:hover,
+.tooltip:hover *,
+.popover:hover,
+.popover:hover *,
+.tooltip-inner:hover,
+.tooltip-inner:hover * {
+    color: white !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main-header {
+        font-size: 2rem;
+    }
+    
+    .main-subheader {
+        font-size: 1.1rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .card-header {
+        font-size: 1.3rem;
+    }
+}

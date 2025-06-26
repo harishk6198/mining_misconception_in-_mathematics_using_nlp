@@ -1,0 +1,167 @@
+{% extends "layout.html" %}
+
+{% block title %}About - Mathematical Misconception Detector{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 offset-lg-2">
+        <div class="card">
+            <h3 class="card-header">About the Project</h3>
+            <div class="card-body">
+                <!-- Project Overview -->
+                <h4 class="section-title">Overview</h4>
+                <p>
+                    The Mathematical Misconception Detector is an advanced educational tool that 
+                    uses artificial intelligence to identify potential misconceptions in mathematical
+                    learning. By analyzing questions and answers, our system helps educators understand
+                    common difficulties students face when learning mathematical concepts.
+                </p>
+                
+                <p>
+                    Our primary goal is to help educators identify patterns in student misconceptions so they
+                    can better target their teaching strategies and provide more effective feedback.
+                </p>
+                
+                <!-- Technology Stack -->
+                <h4 class="section-title mt-4">Technology Stack</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Data Processing</h5>
+                        <ul>
+                            <li>Python</li>
+                            <li>Pandas for data manipulation</li>
+                            <li>NLTK for natural language processing</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Machine Learning</h5>
+                        <ul>
+                            <li>Scikit-learn for ML algorithms</li>
+                            <li>TF-IDF vectorization</li>
+                            <li>Multi-label classification</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Data Features -->
+                <h4 class="section-title mt-4">Data Features</h4>
+                <p>
+                    Our system analyzes the following aspects of mathematical questions and answers:
+                </p>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <div class="info-box-title">Linguistic Features</div>
+                            <div class="info-box-text">
+                                <ul>
+                                    <li>Mathematical terminology usage</li>
+                                    <li>Syntax patterns in explanations</li>
+                                    <li>Logical structure of answers</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box">
+                            <div class="info-box-title">Conceptual Features</div>
+                            <div class="info-box-text">
+                                <ul>
+                                    <li>Mathematical concept relationships</li>
+                                    <li>Procedural patterns</li>
+                                    <li>Common error patterns</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- How to Use -->
+                <h4 class="section-title mt-4">How to Use</h4>
+                <p>
+                    Using the Mathematical Misconception Detector is straightforward:
+                </p>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <div class="step-content-title">Prepare Your Data</div>
+                                <div class="step-content-desc">
+                                    Create a CSV file with your questions and correct answers.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <div class="step-content-title">Upload and Analyze</div>
+                                <div class="step-content-desc">
+                                    Upload your CSV file using the Analyze page and let our model process it.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <div class="step-content-title">Review Results</div>
+                                <div class="step-content-desc">
+                                    Examine the detected misconceptions and recommendations in the Results page.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <div class="step-content-title">Apply Insights</div>
+                                <div class="step-content-desc">
+                                    Use the findings to adapt your teaching strategies and materials.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Future Developments -->
+                <h4 class="section-title mt-4">Future Developments</h4>
+                <p>
+                    We are continuously working to improve the Mathematical Misconception Detector. Some of our planned enhancements include:
+                </p>
+                
+                <ul>
+                    <li>Integration with existing learning management systems</li>
+                    <li>Real-time analysis of student responses</li>
+                    <li>Expanded misconception database across more mathematical domains</li>
+                    <li>Personalized intervention suggestion system</li>
+                    <li>Support for multiple languages</li>
+                </ul>
+                
+                <!-- Contact Information -->
+                <h4 class="section-title mt-4">Contact Information</h4>
+                <p>
+                    For more information, feature requests, or to report bugs, please contact us at:
+                </p>
+                
+                <div class="d-flex align-items-center mb-2">
+                    <i class="fas fa-envelope me-3 text-primary"></i>
+                    <span>support@math-misconception-detector.edu</span>
+                </div>
+                
+                <div class="d-flex align-items-center mb-2">
+                    <i class="fas fa-globe me-3 text-primary"></i>
+                    <span>www.math-misconception-detector.edu</span>
+                </div>
+                
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-phone me-3 text-primary"></i>
+                    <span>+1 (555) 123-4567</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

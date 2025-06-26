@@ -1,0 +1,103 @@
+{% extends "layout.html" %}
+
+{% block title %}Analyze - Mathematical Misconception Detector{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 offset-lg-2">
+        <div class="card">
+            <h3 class="card-header">Analyze Mathematical Questions</h3>
+            <div class="card-body">
+                <!-- File Upload Form -->
+                <form action="{{ url_for('analyze') }}" method="post" enctype="multipart/form-data">
+                    <!-- Instructions -->
+                    <div class="info-box mb-4">
+                        <div class="d-flex">
+                            <div class="info-box-icon">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <div>
+                                <div class="info-box-title">Upload CSV File</div>
+                                <div class="info-box-text">
+                                    Upload a CSV file containing mathematical questions and answers to analyze for potential misconceptions.
+                                    <br>Required columns: 'question_id', 'question_text', 'correct_answer'.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- File Input -->
+                    <div class="custom-file-upload" onclick="document.getElementById('file-upload').click()">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p class="mb-1">Drag and drop a file or click to browse</p>
+                        <p class="text-muted" id="file-name">No file chosen</p>
+                        <input type="file" name="file" id="file-upload" class="d-none" accept=".csv">
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-search me-2"></i> Analyze Questions
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Sample format section -->
+                <div class="mt-4">
+                    <h4 class="mb-3">Sample CSV Format</h4>
+                    <div class="bg-dark p-3 rounded mono-text" style="font-size: 0.9rem;">
+                        <pre class="mb-0">question_id,question_text,correct_answer
+1,"Solve for x: 2x + 5 = 11","x = 3"
+2,"Find the derivative of f(x) = x²","f'(x) = 2x"</pre>
+                    </div>
+                </div>
+
+                <!-- Process Description -->
+                <div class="mt-4">
+                    <h4 class="mb-3">Analysis Process</h4>
+                    
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <div class="step-content-title">Upload Data</div>
+                            <div class="step-content-desc">
+                                Upload your CSV file with question data
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <div class="step-content-title">Text Processing</div>
+                            <div class="step-content-desc">
+                                The system cleans and tokenizes the text data
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <div class="step-content-title">ML Analysis</div>
+                            <div class="step-content-desc">
+                                The ML model detects potential misconceptions
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <div class="step-content-title">Results Generation</div>
+                            <div class="step-content-desc">
+                                Detailed analysis report is created
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

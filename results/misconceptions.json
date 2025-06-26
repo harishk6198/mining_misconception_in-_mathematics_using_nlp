@@ -1,0 +1,3688 @@
+[
+    {
+        "question_id": 1,
+        "question_text": "What is 3.5 + 2.8?",
+        "misconception_ids": [
+            126,
+            381,
+            438,
+            1156,
+            1507,
+            1978,
+            1999,
+            2311,
+            2399
+        ],
+        "misconception_names": [
+            "Multiplies rather than adds when given the command word 'more'",
+            "When dividing a fraction by an integer, divides both the numerator and denominator by the integer",
+            "Believes cubing a number means you multiply it by 3",
+            "When dividing a fraction by an integer, divides the denominator by the integer",
+            "Carries out operations from left to right regardless of priority order",
+            "Subtracts instead of adds when answering worded problems ",
+            "Does not interpret the correct order of operations from a worded problem",
+            "Divides rather than adds when answering worded problems",
+            "when dividing a fraction by an integer, both multiplies the denominator and divides the denominator"
+        ],
+        "misconception_details": [
+            {
+                "id": 126,
+                "name": "Multiplies rather than adds when given the command word 'more'",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 381,
+                "name": "When dividing a fraction by an integer, divides both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1156,
+                "name": "When dividing a fraction by an integer, divides the denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1507,
+                "name": "Carries out operations from left to right regardless of priority order",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1978,
+                "name": "Subtracts instead of adds when answering worded problems ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1999,
+                "name": "Does not interpret the correct order of operations from a worded problem",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2311,
+                "name": "Divides rather than adds when answering worded problems",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2399,
+                "name": "when dividing a fraction by an integer, both multiplies the denominator and divides the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 2,
+        "question_text": "Solve: 2x + 5 = 15",
+        "misconception_ids": [
+            438,
+            1214
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "When solving an equation, uses the same operation rather than the inverse."
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1214,
+                "name": "When solving an equation, uses the same operation rather than the inverse.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 3,
+        "question_text": "What is 1/2 + 1/3?",
+        "misconception_ids": [
+            217,
+            234,
+            438,
+            2234
+        ],
+        "misconception_names": [
+            "When adding fractions, adds the numerators and denominators",
+            "Subtracts instead of adds",
+            "Believes cubing a number means you multiply it by 3",
+            "Forgets to change the numerators when finding equivalent fractions"
+        ],
+        "misconception_details": [
+            {
+                "id": 217,
+                "name": "When adding fractions, adds the numerators and denominators",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 234,
+                "name": "Subtracts instead of adds",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2234,
+                "name": "Forgets to change the numerators when finding equivalent fractions",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 4,
+        "question_text": "Calculate: (-3) \u00d7 (-4)",
+        "misconception_ids": [
+            609,
+            952,
+            1072,
+            1294,
+            1621,
+            2256
+        ],
+        "misconception_names": [
+            "when dividing a fraction by an integer, multiplies the numerator by the integer",
+            "Adds the index to the number",
+            "Multiplies by the index",
+            "When solving an equation where there is a negative sign in front of the variable and its equivalent value, assumes the variable has a negative value",
+            "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+            "Believes the constant in an expanded quadratic comes from adding the two numbers in the brackets"
+        ],
+        "misconception_details": [
+            {
+                "id": 609,
+                "name": "when dividing a fraction by an integer, multiplies the numerator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 952,
+                "name": "Adds the index to the number",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1072,
+                "name": "Multiplies by the index",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1294,
+                "name": "When solving an equation where there is a negative sign in front of the variable and its equivalent value, assumes the variable has a negative value",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1621,
+                "name": "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2256,
+                "name": "Believes the constant in an expanded quadratic comes from adding the two numbers in the brackets",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 5,
+        "question_text": "What is 25% of 80?",
+        "misconception_ids": [
+            261,
+            710,
+            914,
+            1172,
+            1693,
+            1710,
+            1786,
+            2085,
+            2364
+        ],
+        "misconception_names": [
+            "When multiplying just writes the numbers next to each other",
+            "Confuses factors and multiples",
+            "Finds 10% of an amount rather than the percentage being asked",
+            "Thinks any 2 values multiplied together can be denoted with a squared symbol",
+            "Does not know the meaning of common, eg. common factor",
+            "When finding a percentage of an amount, assumes they divide the percentage by 10, but not the amount, before multiplying",
+            "Converts a fraction to a percentage by writing the numerator followed by the denominator",
+            "Adds instead of multiplies when multiplying algebraic terms",
+            "Believes all possible outcomes must have equal probability"
+        ],
+        "misconception_details": [
+            {
+                "id": 261,
+                "name": "When multiplying just writes the numbers next to each other",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 710,
+                "name": "Confuses factors and multiples",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 914,
+                "name": "Finds 10% of an amount rather than the percentage being asked",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1172,
+                "name": "Thinks any 2 values multiplied together can be denoted with a squared symbol",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1693,
+                "name": "Does not know the meaning of common, eg. common factor",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1710,
+                "name": "When finding a percentage of an amount, assumes they divide the percentage by 10, but not the amount, before multiplying",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1786,
+                "name": "Converts a fraction to a percentage by writing the numerator followed by the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2085,
+                "name": "Adds instead of multiplies when multiplying algebraic terms",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2364,
+                "name": "Believes all possible outcomes must have equal probability",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 6,
+        "question_text": "Simplify: 3x + 2x",
+        "misconception_ids": [
+            438
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 7,
+        "question_text": "What is the area of a rectangle with length 6 cm and width 4 cm?",
+        "misconception_ids": [
+            438,
+            618,
+            982,
+            1668,
+            1706
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "Does not recall rectangle side length property",
+            "Calculates perimeter when asked for area",
+            "Calculates area when asked for perimeter",
+            "When calculating perimeter, only adds the marked lengths"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 618,
+                "name": "Does not recall rectangle side length property",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 982,
+                "name": "Calculates perimeter when asked for area",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1668,
+                "name": "Calculates area when asked for perimeter",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1706,
+                "name": "When calculating perimeter, only adds the marked lengths",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 8,
+        "question_text": "Solve: x/4 = 12",
+        "misconception_ids": [
+            438,
+            2317,
+            2481,
+            2524
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "When asked for the next term in the sequence subtracts one from the last term given, despite the sequence not going down in ones.",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+            "Has added the powers rather than multiplying them"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2317,
+                "name": "When asked for the next term in the sequence subtracts one from the last term given, despite the sequence not going down in ones.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2524,
+                "name": "Has added the powers rather than multiplying them",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 9,
+        "question_text": "What is 0.7 as a fraction?",
+        "misconception_ids": [
+            217,
+            234,
+            438,
+            2234
+        ],
+        "misconception_names": [
+            "When adding fractions, adds the numerators and denominators",
+            "Subtracts instead of adds",
+            "Believes cubing a number means you multiply it by 3",
+            "Forgets to change the numerators when finding equivalent fractions"
+        ],
+        "misconception_details": [
+            {
+                "id": 217,
+                "name": "When adding fractions, adds the numerators and denominators",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 234,
+                "name": "Subtracts instead of adds",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2234,
+                "name": "Forgets to change the numerators when finding equivalent fractions",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 10,
+        "question_text": "Calculate: 8 \u00f7 2(2+2)",
+        "misconception_ids": [
+            438,
+            609,
+            1621
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "when dividing a fraction by an integer, multiplies the numerator by the integer",
+            "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 609,
+                "name": "when dividing a fraction by an integer, multiplies the numerator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1621,
+                "name": "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 11,
+        "question_text": "What is the slope of the line y = 3x + 2?",
+        "misconception_ids": [
+            438
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 12,
+        "question_text": "Simplify: (x\u00b2)\u00b3",
+        "misconception_ids": [
+            267,
+            346,
+            400,
+            438,
+            1072,
+            1116,
+            1256,
+            1416,
+            1540,
+            1644,
+            2078,
+            2398
+        ],
+        "misconception_names": [
+            "Writes the variable before the coefficient in an algebraic term",
+            "Does not understand how to multiply algebraic terms",
+            "Thinks multiplying a variable by a number is the same as raising that variable to the power of that number",
+            "Believes cubing a number means you multiply it by 3",
+            "Multiplies by the index",
+            "Multiplies coefficients and letters separately and writes as an addition",
+            "Believes the difference of 2 squares method of factorising also works for the addition of 2 squares",
+            "Adds instead of multiplies",
+            "Does not know how to simplify algebraic fractions",
+            "Confuses collecting like terms with multiplication",
+            "Simplifies a fraction by adding or subtracting the same amount from the numerator  and denominator",
+            "Thinks you can divide terms by different factors when simplifying an algebraic fraction"
+        ],
+        "misconception_details": [
+            {
+                "id": 267,
+                "name": "Writes the variable before the coefficient in an algebraic term",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 346,
+                "name": "Does not understand how to multiply algebraic terms",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 400,
+                "name": "Thinks multiplying a variable by a number is the same as raising that variable to the power of that number",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1072,
+                "name": "Multiplies by the index",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1116,
+                "name": "Multiplies coefficients and letters separately and writes as an addition",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1256,
+                "name": "Believes the difference of 2 squares method of factorising also works for the addition of 2 squares",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1416,
+                "name": "Adds instead of multiplies",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1540,
+                "name": "Does not know how to simplify algebraic fractions",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1644,
+                "name": "Confuses collecting like terms with multiplication",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2078,
+                "name": "Simplifies a fraction by adding or subtracting the same amount from the numerator  and denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2398,
+                "name": "Thinks you can divide terms by different factors when simplifying an algebraic fraction",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 13,
+        "question_text": "What is |-5|?",
+        "misconception_ids": [
+            131,
+            256,
+            699,
+            1214,
+            1294,
+            1507,
+            1510,
+            1597,
+            1795,
+            2143
+        ],
+        "misconception_names": [
+            "Does not think a number can be a factor of itself",
+            "Does not reverse the order of operations when solving an equation",
+            "When \u201cborrowing\u201d during a subtraction problem, does not subtract one from the preceding digit",
+            "When solving an equation, uses the same operation rather than the inverse.",
+            "When solving an equation where there is a negative sign in front of the variable and its equivalent value, assumes the variable has a negative value",
+            "Carries out operations from left to right regardless of priority order",
+            "Believes subtraction is commutative ",
+            "Believes multiplying two negatives gives a negative answer",
+            "Believes you subtract the smaller digit from the larger digit in column subtraction, regardless of position",
+            "Adds instead of multiplying when expanding bracket"
+        ],
+        "misconception_details": [
+            {
+                "id": 131,
+                "name": "Does not think a number can be a factor of itself",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 256,
+                "name": "Does not reverse the order of operations when solving an equation",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 699,
+                "name": "When \u201cborrowing\u201d during a subtraction problem, does not subtract one from the preceding digit",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1214,
+                "name": "When solving an equation, uses the same operation rather than the inverse.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1294,
+                "name": "When solving an equation where there is a negative sign in front of the variable and its equivalent value, assumes the variable has a negative value",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1507,
+                "name": "Carries out operations from left to right regardless of priority order",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1510,
+                "name": "Believes subtraction is commutative ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1597,
+                "name": "Believes multiplying two negatives gives a negative answer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1795,
+                "name": "Believes you subtract the smaller digit from the larger digit in column subtraction, regardless of position",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2143,
+                "name": "Adds instead of multiplying when expanding bracket",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 14,
+        "question_text": "Calculate: 2\u00b3",
+        "misconception_ids": [
+            381,
+            438,
+            609,
+            733,
+            1152,
+            1156,
+            1280,
+            1621,
+            1749,
+            1980,
+            2134,
+            2359,
+            2399
+        ],
+        "misconception_names": [
+            "When dividing a fraction by an integer, divides both the numerator and denominator by the integer",
+            "Believes cubing a number means you multiply it by 3",
+            "when dividing a fraction by an integer, multiplies the numerator by the integer",
+            "When dividing an integer by a fraction, thinks they can just multiply instead.",
+            "When dividing fractions, does the reciprocal of the first fraction instead of the second",
+            "When dividing a fraction by an integer, divides the denominator by the integer",
+            "When multiplying fractions, multiplies the numerator and adds the denominator",
+            "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+            "When dividing fractions, does the reciprocal of both fractions",
+            "When multiplying fractions, adds the numerators and the denominators",
+            "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+            "Believes division is commutative ",
+            "when dividing a fraction by an integer, both multiplies the denominator and divides the denominator"
+        ],
+        "misconception_details": [
+            {
+                "id": 381,
+                "name": "When dividing a fraction by an integer, divides both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 609,
+                "name": "when dividing a fraction by an integer, multiplies the numerator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 733,
+                "name": "When dividing an integer by a fraction, thinks they can just multiply instead.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1152,
+                "name": "When dividing fractions, does the reciprocal of the first fraction instead of the second",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1156,
+                "name": "When dividing a fraction by an integer, divides the denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1280,
+                "name": "When multiplying fractions, multiplies the numerator and adds the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1621,
+                "name": "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1749,
+                "name": "When dividing fractions, does the reciprocal of both fractions",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1980,
+                "name": "When multiplying fractions, adds the numerators and the denominators",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2134,
+                "name": "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2359,
+                "name": "Believes division is commutative ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2399,
+                "name": "when dividing a fraction by an integer, both multiplies the denominator and divides the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 15,
+        "question_text": "What is the perimeter of a square with side 5 cm?",
+        "misconception_ids": [
+            261,
+            438,
+            618,
+            743,
+            982,
+            1172,
+            1668,
+            1693,
+            1706,
+            2085,
+            2090
+        ],
+        "misconception_names": [
+            "When multiplying just writes the numbers next to each other",
+            "Believes cubing a number means you multiply it by 3",
+            "Does not recall rectangle side length property",
+            "When calculating the area of a rectilinear compound shape, calculates the are of the surrounding rectangle",
+            "Calculates perimeter when asked for area",
+            "Thinks any 2 values multiplied together can be denoted with a squared symbol",
+            "Calculates area when asked for perimeter",
+            "Does not know the meaning of common, eg. common factor",
+            "When calculating perimeter, only adds the marked lengths",
+            "Adds instead of multiplies when multiplying algebraic terms",
+            "Finds the area of the whole grid instead of the shaded shape"
+        ],
+        "misconception_details": [
+            {
+                "id": 261,
+                "name": "When multiplying just writes the numbers next to each other",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 618,
+                "name": "Does not recall rectangle side length property",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 743,
+                "name": "When calculating the area of a rectilinear compound shape, calculates the are of the surrounding rectangle",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 982,
+                "name": "Calculates perimeter when asked for area",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1172,
+                "name": "Thinks any 2 values multiplied together can be denoted with a squared symbol",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1668,
+                "name": "Calculates area when asked for perimeter",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1693,
+                "name": "Does not know the meaning of common, eg. common factor",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1706,
+                "name": "When calculating perimeter, only adds the marked lengths",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2085,
+                "name": "Adds instead of multiplies when multiplying algebraic terms",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2090,
+                "name": "Finds the area of the whole grid instead of the shaded shape",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 16,
+        "question_text": "Solve: 3(x + 2) = 15",
+        "misconception_ids": [
+            38,
+            438,
+            1214,
+            1507
+        ],
+        "misconception_names": [
+            "Believes the sides of an inequality can be switched without changing the direction of the sign",
+            "Believes cubing a number means you multiply it by 3",
+            "When solving an equation, uses the same operation rather than the inverse.",
+            "Carries out operations from left to right regardless of priority order"
+        ],
+        "misconception_details": [
+            {
+                "id": 38,
+                "name": "Believes the sides of an inequality can be switched without changing the direction of the sign",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1214,
+                "name": "When solving an equation, uses the same operation rather than the inverse.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1507,
+                "name": "Carries out operations from left to right regardless of priority order",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 17,
+        "question_text": "What is 2/3 \u00f7 1/4?",
+        "misconception_ids": [
+            217,
+            234,
+            438,
+            2234,
+            2481
+        ],
+        "misconception_names": [
+            "When adding fractions, adds the numerators and denominators",
+            "Subtracts instead of adds",
+            "Believes cubing a number means you multiply it by 3",
+            "Forgets to change the numerators when finding equivalent fractions",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 217,
+                "name": "When adding fractions, adds the numerators and denominators",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 234,
+                "name": "Subtracts instead of adds",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2234,
+                "name": "Forgets to change the numerators when finding equivalent fractions",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 18,
+        "question_text": "Calculate: \u221a36",
+        "misconception_ids": [
+            220,
+            438,
+            609,
+            1280,
+            1621,
+            1980,
+            2134,
+            2359
+        ],
+        "misconception_names": [
+            "Only multiplies the first term in the expansion of a bracket",
+            "Believes cubing a number means you multiply it by 3",
+            "when dividing a fraction by an integer, multiplies the numerator by the integer",
+            "When multiplying fractions, multiplies the numerator and adds the denominator",
+            "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+            "When multiplying fractions, adds the numerators and the denominators",
+            "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+            "Believes division is commutative "
+        ],
+        "misconception_details": [
+            {
+                "id": 220,
+                "name": "Only multiplies the first term in the expansion of a bracket",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 609,
+                "name": "when dividing a fraction by an integer, multiplies the numerator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1280,
+                "name": "When multiplying fractions, multiplies the numerator and adds the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1621,
+                "name": "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1980,
+                "name": "When multiplying fractions, adds the numerators and the denominators",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2134,
+                "name": "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2359,
+                "name": "Believes division is commutative ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 19,
+        "question_text": "What is the supplement of a 40\u00b0 angle?",
+        "misconception_ids": [
+            154,
+            438
+        ],
+        "misconception_names": [
+            "Assumes an angle has been split into equal parts",
+            "Believes cubing a number means you multiply it by 3"
+        ],
+        "misconception_details": [
+            {
+                "id": 154,
+                "name": "Assumes an angle has been split into equal parts",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 20,
+        "question_text": "Simplify: 4x - 2x + x",
+        "misconception_ids": [
+            438,
+            911
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "Only multiplies the numerical terms when expanding a bracket"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 911,
+                "name": "Only multiplies the numerical terms when expanding a bracket",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 21,
+        "question_text": "What is 0.25 as a percentage?",
+        "misconception_ids": [
+            61,
+            146,
+            414,
+            438,
+            658,
+            890,
+            904,
+            1320,
+            1632,
+            1673,
+            1786,
+            1965,
+            2364
+        ],
+        "misconception_names": [
+            "Multiplies by 10 instead of 100 when converting decimal to percentage",
+            "Has multiplied by the root power",
+            "Divides by the order of the root",
+            "Believes cubing a number means you multiply it by 3",
+            "Thinks they double the numerator to turn a fraction into a percentage",
+            "Thinks they had to give the new amount rather than the total percentage that the original has been increased by.",
+            "Has taken the percentage from the original ",
+            "Multiplied by 10 rather than 100",
+            "Believes a decimal with one significant figure is a multiple of 10 when converted to a percentage, regardless of place value",
+            "Multiplied by 1000 instead of 100",
+            "Converts a fraction to a percentage by writing the numerator followed by the denominator",
+            "Thinks you need to just add a % sign to a decimal to convert to a percentage",
+            "Believes all possible outcomes must have equal probability"
+        ],
+        "misconception_details": [
+            {
+                "id": 61,
+                "name": "Multiplies by 10 instead of 100 when converting decimal to percentage",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 146,
+                "name": "Has multiplied by the root power",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 414,
+                "name": "Divides by the order of the root",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 658,
+                "name": "Thinks they double the numerator to turn a fraction into a percentage",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 890,
+                "name": "Thinks they had to give the new amount rather than the total percentage that the original has been increased by.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 904,
+                "name": "Has taken the percentage from the original ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1320,
+                "name": "Multiplied by 10 rather than 100",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1632,
+                "name": "Believes a decimal with one significant figure is a multiple of 10 when converted to a percentage, regardless of place value",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1673,
+                "name": "Multiplied by 1000 instead of 100",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1786,
+                "name": "Converts a fraction to a percentage by writing the numerator followed by the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1965,
+                "name": "Thinks you need to just add a % sign to a decimal to convert to a percentage",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2364,
+                "name": "Believes all possible outcomes must have equal probability",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 22,
+        "question_text": "Calculate: 5! (5 factorial)",
+        "misconception_ids": [
+            438,
+            609,
+            915,
+            1344,
+            1422,
+            1621,
+            1725
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "when dividing a fraction by an integer, multiplies the numerator by the integer",
+            "Does not recognise metres as a unit of length",
+            "Estimates angle without using knowledge of degrees in quarter turns",
+            "Does not recognise km as a unit of length ",
+            "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+            "Does not recognise inches (\") as a unit of length"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 609,
+                "name": "when dividing a fraction by an integer, multiplies the numerator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 915,
+                "name": "Does not recognise metres as a unit of length",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1344,
+                "name": "Estimates angle without using knowledge of degrees in quarter turns",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1422,
+                "name": "Does not recognise km as a unit of length ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1621,
+                "name": "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1725,
+                "name": "Does not recognise inches (\") as a unit of length",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 23,
+        "question_text": "What is the median of: 3, 7, 2, 9, 5?",
+        "misconception_ids": [
+            438,
+            461,
+            589,
+            732,
+            1126,
+            1992,
+            2198,
+            2481
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "When finding the median for an odd numbered data set, find the midpoint of two values rather than giving the middle value",
+            "Believes extreme values can affect the median",
+            "Finds the mean instead of the median",
+            "Believes the mean is always representative",
+            "Believes extreme values can affect the mode",
+            "Finds the mode instead of the median",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 461,
+                "name": "When finding the median for an odd numbered data set, find the midpoint of two values rather than giving the middle value",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 589,
+                "name": "Believes extreme values can affect the median",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 732,
+                "name": "Finds the mean instead of the median",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1126,
+                "name": "Believes the mean is always representative",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1992,
+                "name": "Believes extreme values can affect the mode",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2198,
+                "name": "Finds the mode instead of the median",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 24,
+        "question_text": "Solve: |x| = 5",
+        "misconception_ids": [
+            38,
+            107,
+            220,
+            438,
+            1214,
+            1566,
+            1803,
+            2481
+        ],
+        "misconception_names": [
+            "Believes the sides of an inequality can be switched without changing the direction of the sign",
+            "When expanding brackets, multiplies out the first term correctly but adds together the number outside the bracket with the second term inside the bracket.",
+            "Only multiplies the first term in the expansion of a bracket",
+            "Believes cubing a number means you multiply it by 3",
+            "When solving an equation, uses the same operation rather than the inverse.",
+            "Adds or subtracts from numerator first when solving an equation with a fraction",
+            "Believes they can divide by a variable without checking whether it could equal zero",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 38,
+                "name": "Believes the sides of an inequality can be switched without changing the direction of the sign",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 107,
+                "name": "When expanding brackets, multiplies out the first term correctly but adds together the number outside the bracket with the second term inside the bracket.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 220,
+                "name": "Only multiplies the first term in the expansion of a bracket",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1214,
+                "name": "When solving an equation, uses the same operation rather than the inverse.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1566,
+                "name": "Adds or subtracts from numerator first when solving an equation with a fraction",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1803,
+                "name": "Believes they can divide by a variable without checking whether it could equal zero",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 25,
+        "question_text": "What is the circumference of a circle with radius 3?",
+        "misconception_ids": [
+            217,
+            234,
+            438,
+            1271,
+            1733,
+            1741,
+            2234,
+            2481
+        ],
+        "misconception_names": [
+            "When adding fractions, adds the numerators and denominators",
+            "Subtracts instead of adds",
+            "Believes cubing a number means you multiply it by 3",
+            "Confuses chord and radius",
+            "Confuses tangent and chord",
+            "Confuses diameter and chord",
+            "Forgets to change the numerators when finding equivalent fractions",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 217,
+                "name": "When adding fractions, adds the numerators and denominators",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 234,
+                "name": "Subtracts instead of adds",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1271,
+                "name": "Confuses chord and radius",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1733,
+                "name": "Confuses tangent and chord",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1741,
+                "name": "Confuses diameter and chord",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2234,
+                "name": "Forgets to change the numerators when finding equivalent fractions",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 26,
+        "question_text": "Calculate: log\u2081\u2080(100)",
+        "misconception_ids": [
+            381,
+            438,
+            609,
+            733,
+            1152,
+            1156,
+            1280,
+            1621,
+            1749,
+            1980,
+            2134,
+            2359,
+            2399
+        ],
+        "misconception_names": [
+            "When dividing a fraction by an integer, divides both the numerator and denominator by the integer",
+            "Believes cubing a number means you multiply it by 3",
+            "when dividing a fraction by an integer, multiplies the numerator by the integer",
+            "When dividing an integer by a fraction, thinks they can just multiply instead.",
+            "When dividing fractions, does the reciprocal of the first fraction instead of the second",
+            "When dividing a fraction by an integer, divides the denominator by the integer",
+            "When multiplying fractions, multiplies the numerator and adds the denominator",
+            "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+            "When dividing fractions, does the reciprocal of both fractions",
+            "When multiplying fractions, adds the numerators and the denominators",
+            "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+            "Believes division is commutative ",
+            "when dividing a fraction by an integer, both multiplies the denominator and divides the denominator"
+        ],
+        "misconception_details": [
+            {
+                "id": 381,
+                "name": "When dividing a fraction by an integer, divides both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 609,
+                "name": "when dividing a fraction by an integer, multiplies the numerator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 733,
+                "name": "When dividing an integer by a fraction, thinks they can just multiply instead.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1152,
+                "name": "When dividing fractions, does the reciprocal of the first fraction instead of the second",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1156,
+                "name": "When dividing a fraction by an integer, divides the denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1280,
+                "name": "When multiplying fractions, multiplies the numerator and adds the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1621,
+                "name": "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1749,
+                "name": "When dividing fractions, does the reciprocal of both fractions",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1980,
+                "name": "When multiplying fractions, adds the numerators and the denominators",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2134,
+                "name": "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2359,
+                "name": "Believes division is commutative ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2399,
+                "name": "when dividing a fraction by an integer, both multiplies the denominator and divides the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 27,
+        "question_text": "What is sin(90\u00b0)?",
+        "misconception_ids": [
+            438,
+            2481
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 28,
+        "question_text": "Simplify: \u221a(x\u00b2)",
+        "misconception_ids": [
+            267,
+            346,
+            400,
+            438,
+            1072,
+            1116,
+            1256,
+            1416,
+            1540,
+            1644,
+            2078,
+            2398
+        ],
+        "misconception_names": [
+            "Writes the variable before the coefficient in an algebraic term",
+            "Does not understand how to multiply algebraic terms",
+            "Thinks multiplying a variable by a number is the same as raising that variable to the power of that number",
+            "Believes cubing a number means you multiply it by 3",
+            "Multiplies by the index",
+            "Multiplies coefficients and letters separately and writes as an addition",
+            "Believes the difference of 2 squares method of factorising also works for the addition of 2 squares",
+            "Adds instead of multiplies",
+            "Does not know how to simplify algebraic fractions",
+            "Confuses collecting like terms with multiplication",
+            "Simplifies a fraction by adding or subtracting the same amount from the numerator  and denominator",
+            "Thinks you can divide terms by different factors when simplifying an algebraic fraction"
+        ],
+        "misconception_details": [
+            {
+                "id": 267,
+                "name": "Writes the variable before the coefficient in an algebraic term",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 346,
+                "name": "Does not understand how to multiply algebraic terms",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 400,
+                "name": "Thinks multiplying a variable by a number is the same as raising that variable to the power of that number",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1072,
+                "name": "Multiplies by the index",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1116,
+                "name": "Multiplies coefficients and letters separately and writes as an addition",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1256,
+                "name": "Believes the difference of 2 squares method of factorising also works for the addition of 2 squares",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1416,
+                "name": "Adds instead of multiplies",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1540,
+                "name": "Does not know how to simplify algebraic fractions",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1644,
+                "name": "Confuses collecting like terms with multiplication",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2078,
+                "name": "Simplifies a fraction by adding or subtracting the same amount from the numerator  and denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2398,
+                "name": "Thinks you can divide terms by different factors when simplifying an algebraic fraction",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 29,
+        "question_text": "What is the y-intercept of y = 2x - 3?",
+        "misconception_ids": [
+            256,
+            1214,
+            1510,
+            1552,
+            1597,
+            1695,
+            1911,
+            1937,
+            2143,
+            2316,
+            2326
+        ],
+        "misconception_names": [
+            "Does not reverse the order of operations when solving an equation",
+            "When solving an equation, uses the same operation rather than the inverse.",
+            "Believes subtraction is commutative ",
+            "Believes term to term rule is applied to position number, not previous term",
+            "Believes multiplying two negatives gives a negative answer",
+            "Thinks you add all the bricks in a row in an addition pyramid.",
+            "Only multiplies second term in the expansion of a bracket",
+            "Believes subtracting a positive number from a negative number makes the answer less negative",
+            "Adds instead of multiplying when expanding bracket",
+            "Mixes up squaring and multiplying by 2 or doubling",
+            "Multiplies rather than adds "
+        ],
+        "misconception_details": [
+            {
+                "id": 256,
+                "name": "Does not reverse the order of operations when solving an equation",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1214,
+                "name": "When solving an equation, uses the same operation rather than the inverse.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1510,
+                "name": "Believes subtraction is commutative ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1552,
+                "name": "Believes term to term rule is applied to position number, not previous term",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1597,
+                "name": "Believes multiplying two negatives gives a negative answer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1695,
+                "name": "Thinks you add all the bricks in a row in an addition pyramid.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1911,
+                "name": "Only multiplies second term in the expansion of a bracket",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1937,
+                "name": "Believes subtracting a positive number from a negative number makes the answer less negative",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2143,
+                "name": "Adds instead of multiplying when expanding bracket",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2316,
+                "name": "Mixes up squaring and multiplying by 2 or doubling",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2326,
+                "name": "Multiplies rather than adds ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 30,
+        "question_text": "Calculate: (1/2)\u207b\u00b9",
+        "misconception_ids": [
+            438,
+            609,
+            1280,
+            1621,
+            1980,
+            2134,
+            2359
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "when dividing a fraction by an integer, multiplies the numerator by the integer",
+            "When multiplying fractions, multiplies the numerator and adds the denominator",
+            "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+            "When multiplying fractions, adds the numerators and the denominators",
+            "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+            "Believes division is commutative "
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 609,
+                "name": "when dividing a fraction by an integer, multiplies the numerator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1280,
+                "name": "When multiplying fractions, multiplies the numerator and adds the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1621,
+                "name": "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1980,
+                "name": "When multiplying fractions, adds the numerators and the denominators",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2134,
+                "name": "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2359,
+                "name": "Believes division is commutative ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 31,
+        "question_text": "What is the mode of: 2, 3, 3, 4, 5?",
+        "misconception_ids": [
+            438,
+            2481
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 32,
+        "question_text": "Solve: x\u00b2 = 16",
+        "misconception_ids": [
+            38,
+            78,
+            438,
+            495,
+            1803,
+            1920,
+            1976,
+            2316,
+            2481
+        ],
+        "misconception_names": [
+            "Believes the sides of an inequality can be switched without changing the direction of the sign",
+            "When multiplying a fraction by an integer, multiplies the denominator instead of the numerator",
+            "Believes cubing a number means you multiply it by 3",
+            "Thinks converting an integer to a fraction means both the numerator and denominator are equal",
+            "Believes they can divide by a variable without checking whether it could equal zero",
+            "Forgotten that anything to the power of 0 equals 1",
+            "When multiplying a fraction by an integer, multiplies both numerator and denominator by the integer",
+            "Mixes up squaring and multiplying by 2 or doubling",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 38,
+                "name": "Believes the sides of an inequality can be switched without changing the direction of the sign",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 78,
+                "name": "When multiplying a fraction by an integer, multiplies the denominator instead of the numerator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 495,
+                "name": "Thinks converting an integer to a fraction means both the numerator and denominator are equal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1803,
+                "name": "Believes they can divide by a variable without checking whether it could equal zero",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1920,
+                "name": "Forgotten that anything to the power of 0 equals 1",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1976,
+                "name": "When multiplying a fraction by an integer, multiplies both numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2316,
+                "name": "Mixes up squaring and multiplying by 2 or doubling",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 33,
+        "question_text": "What is the sum of interior angles in a triangle?",
+        "misconception_ids": [
+            306,
+            309,
+            438,
+            773,
+            2121,
+            2341,
+            2362
+        ],
+        "misconception_names": [
+            "Added rather than multiplied by a scale factor",
+            "Believes angles on a straight line add to 90 degrees",
+            "Believes cubing a number means you multiply it by 3",
+            "Does not understand to find each interior angle of a regular polygon you divide the sum by the number of sides",
+            "Believes angles on a straight line add to 100 degrees",
+            "Does not know how to calculate the sum of interior angles",
+            "Believes angles on a straight line add to 360 degrees"
+        ],
+        "misconception_details": [
+            {
+                "id": 306,
+                "name": "Added rather than multiplied by a scale factor",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 309,
+                "name": "Believes angles on a straight line add to 90 degrees",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 773,
+                "name": "Does not understand to find each interior angle of a regular polygon you divide the sum by the number of sides",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2121,
+                "name": "Believes angles on a straight line add to 100 degrees",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2341,
+                "name": "Does not know how to calculate the sum of interior angles",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2362,
+                "name": "Believes angles on a straight line add to 360 degrees",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 34,
+        "question_text": "Calculate: 3\u2070",
+        "misconception_ids": [
+            381,
+            438,
+            609,
+            733,
+            1152,
+            1156,
+            1280,
+            1621,
+            1749,
+            1980,
+            2134,
+            2359,
+            2399
+        ],
+        "misconception_names": [
+            "When dividing a fraction by an integer, divides both the numerator and denominator by the integer",
+            "Believes cubing a number means you multiply it by 3",
+            "when dividing a fraction by an integer, multiplies the numerator by the integer",
+            "When dividing an integer by a fraction, thinks they can just multiply instead.",
+            "When dividing fractions, does the reciprocal of the first fraction instead of the second",
+            "When dividing a fraction by an integer, divides the denominator by the integer",
+            "When multiplying fractions, multiplies the numerator and adds the denominator",
+            "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+            "When dividing fractions, does the reciprocal of both fractions",
+            "When multiplying fractions, adds the numerators and the denominators",
+            "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+            "Believes division is commutative ",
+            "when dividing a fraction by an integer, both multiplies the denominator and divides the denominator"
+        ],
+        "misconception_details": [
+            {
+                "id": 381,
+                "name": "When dividing a fraction by an integer, divides both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 609,
+                "name": "when dividing a fraction by an integer, multiplies the numerator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 733,
+                "name": "When dividing an integer by a fraction, thinks they can just multiply instead.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1152,
+                "name": "When dividing fractions, does the reciprocal of the first fraction instead of the second",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1156,
+                "name": "When dividing a fraction by an integer, divides the denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1280,
+                "name": "When multiplying fractions, multiplies the numerator and adds the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1621,
+                "name": "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1749,
+                "name": "When dividing fractions, does the reciprocal of both fractions",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1980,
+                "name": "When multiplying fractions, adds the numerators and the denominators",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2134,
+                "name": "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2359,
+                "name": "Believes division is commutative ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2399,
+                "name": "when dividing a fraction by an integer, both multiplies the denominator and divides the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 35,
+        "question_text": "What is the range of y = x\u00b2?",
+        "misconception_ids": [
+            397,
+            438,
+            691,
+            1349,
+            2119,
+            2346,
+            2456,
+            2481
+        ],
+        "misconception_names": [
+            "When calculating the range does not reorder the data to find the largest number minus the smallest number",
+            "Believes cubing a number means you multiply it by 3",
+            "To find the range adds the biggest and smallest number rather than subtract",
+            "Does not include negative numbers when calculating a range",
+            "Ignores the negative sign",
+            "When subtracting decimals with a different number of decimal places, lines up the digits incorrectly",
+            "Finds the mode rather than the range",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 397,
+                "name": "When calculating the range does not reorder the data to find the largest number minus the smallest number",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 691,
+                "name": "To find the range adds the biggest and smallest number rather than subtract",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1349,
+                "name": "Does not include negative numbers when calculating a range",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2119,
+                "name": "Ignores the negative sign",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2346,
+                "name": "When subtracting decimals with a different number of decimal places, lines up the digits incorrectly",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2456,
+                "name": "Finds the mode rather than the range",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 36,
+        "question_text": "Simplify: (a + b)\u00b2",
+        "misconception_ids": [
+            15,
+            267,
+            346,
+            400,
+            974,
+            1072,
+            1116,
+            1153,
+            1256,
+            1416,
+            1507,
+            1535,
+            1540,
+            2078,
+            2131,
+            2225,
+            2256,
+            2398
+        ],
+        "misconception_names": [
+            "Confuses the order of operations, believes addition comes before division",
+            "Writes the variable before the coefficient in an algebraic term",
+            "Does not understand how to multiply algebraic terms",
+            "Thinks multiplying a variable by a number is the same as raising that variable to the power of that number",
+            "Believes multiplying a positive by a negative gives a positive answer",
+            "Multiplies by the index",
+            "Multiplies coefficients and letters separately and writes as an addition",
+            "Believes they can ignore the coefficient when expanding double brackets ",
+            "Believes the difference of 2 squares method of factorising also works for the addition of 2 squares",
+            "Adds instead of multiplies",
+            "Carries out operations from left to right regardless of priority order",
+            "Believes that when factorising a quadratic, they can choose any two numbers that multiply to give the constant",
+            "Does not know how to simplify algebraic fractions",
+            "Simplifies a fraction by adding or subtracting the same amount from the numerator  and denominator",
+            "When multiplying out 2 or more brackets, does not multiply all the combinations of terms",
+            "Thinks signs are interchangeable when adding or subtracting positive and negative numbers",
+            "Believes the constant in an expanded quadratic comes from adding the two numbers in the brackets",
+            "Thinks you can divide terms by different factors when simplifying an algebraic fraction"
+        ],
+        "misconception_details": [
+            {
+                "id": 15,
+                "name": "Confuses the order of operations, believes addition comes before division",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 267,
+                "name": "Writes the variable before the coefficient in an algebraic term",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 346,
+                "name": "Does not understand how to multiply algebraic terms",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 400,
+                "name": "Thinks multiplying a variable by a number is the same as raising that variable to the power of that number",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 974,
+                "name": "Believes multiplying a positive by a negative gives a positive answer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1072,
+                "name": "Multiplies by the index",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1116,
+                "name": "Multiplies coefficients and letters separately and writes as an addition",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1153,
+                "name": "Believes they can ignore the coefficient when expanding double brackets ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1256,
+                "name": "Believes the difference of 2 squares method of factorising also works for the addition of 2 squares",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1416,
+                "name": "Adds instead of multiplies",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1507,
+                "name": "Carries out operations from left to right regardless of priority order",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1535,
+                "name": "Believes that when factorising a quadratic, they can choose any two numbers that multiply to give the constant",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1540,
+                "name": "Does not know how to simplify algebraic fractions",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2078,
+                "name": "Simplifies a fraction by adding or subtracting the same amount from the numerator  and denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2131,
+                "name": "When multiplying out 2 or more brackets, does not multiply all the combinations of terms",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2225,
+                "name": "Thinks signs are interchangeable when adding or subtracting positive and negative numbers",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2256,
+                "name": "Believes the constant in an expanded quadratic comes from adding the two numbers in the brackets",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2398,
+                "name": "Thinks you can divide terms by different factors when simplifying an algebraic fraction",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 37,
+        "question_text": "What is cos(0\u00b0)?",
+        "misconception_ids": [
+            438,
+            2481
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 38,
+        "question_text": "Calculate: \u221b8",
+        "misconception_ids": [
+            381,
+            438,
+            609,
+            733,
+            1152,
+            1156,
+            1280,
+            1621,
+            1749,
+            1980,
+            2134,
+            2359,
+            2399
+        ],
+        "misconception_names": [
+            "When dividing a fraction by an integer, divides both the numerator and denominator by the integer",
+            "Believes cubing a number means you multiply it by 3",
+            "when dividing a fraction by an integer, multiplies the numerator by the integer",
+            "When dividing an integer by a fraction, thinks they can just multiply instead.",
+            "When dividing fractions, does the reciprocal of the first fraction instead of the second",
+            "When dividing a fraction by an integer, divides the denominator by the integer",
+            "When multiplying fractions, multiplies the numerator and adds the denominator",
+            "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+            "When dividing fractions, does the reciprocal of both fractions",
+            "When multiplying fractions, adds the numerators and the denominators",
+            "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+            "Believes division is commutative ",
+            "when dividing a fraction by an integer, both multiplies the denominator and divides the denominator"
+        ],
+        "misconception_details": [
+            {
+                "id": 381,
+                "name": "When dividing a fraction by an integer, divides both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 609,
+                "name": "when dividing a fraction by an integer, multiplies the numerator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 733,
+                "name": "When dividing an integer by a fraction, thinks they can just multiply instead.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1152,
+                "name": "When dividing fractions, does the reciprocal of the first fraction instead of the second",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1156,
+                "name": "When dividing a fraction by an integer, divides the denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1280,
+                "name": "When multiplying fractions, multiplies the numerator and adds the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1621,
+                "name": "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1749,
+                "name": "When dividing fractions, does the reciprocal of both fractions",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1980,
+                "name": "When multiplying fractions, adds the numerators and the denominators",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2134,
+                "name": "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2359,
+                "name": "Believes division is commutative ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2399,
+                "name": "when dividing a fraction by an integer, both multiplies the denominator and divides the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 39,
+        "question_text": "What is the domain of f(x) = 1/x?",
+        "misconception_ids": [
+            438,
+            2481
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 40,
+        "question_text": "Solve: 2\u02e3 = 8",
+        "misconception_ids": [
+            38,
+            107,
+            220,
+            438,
+            1214,
+            1566,
+            1803,
+            2481
+        ],
+        "misconception_names": [
+            "Believes the sides of an inequality can be switched without changing the direction of the sign",
+            "When expanding brackets, multiplies out the first term correctly but adds together the number outside the bracket with the second term inside the bracket.",
+            "Only multiplies the first term in the expansion of a bracket",
+            "Believes cubing a number means you multiply it by 3",
+            "When solving an equation, uses the same operation rather than the inverse.",
+            "Adds or subtracts from numerator first when solving an equation with a fraction",
+            "Believes they can divide by a variable without checking whether it could equal zero",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 38,
+                "name": "Believes the sides of an inequality can be switched without changing the direction of the sign",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 107,
+                "name": "When expanding brackets, multiplies out the first term correctly but adds together the number outside the bracket with the second term inside the bracket.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 220,
+                "name": "Only multiplies the first term in the expansion of a bracket",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1214,
+                "name": "When solving an equation, uses the same operation rather than the inverse.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1566,
+                "name": "Adds or subtracts from numerator first when solving an equation with a fraction",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1803,
+                "name": "Believes they can divide by a variable without checking whether it could equal zero",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 41,
+        "question_text": "What is the greatest common factor of 12 and 18?",
+        "misconception_ids": [
+            131,
+            239,
+            438,
+            710,
+            952,
+            1072,
+            1473,
+            1554,
+            1693,
+            2481
+        ],
+        "misconception_names": [
+            "Does not think a number can be a factor of itself",
+            "Finds a common multiple but not the lowest common multiple",
+            "Believes cubing a number means you multiply it by 3",
+            "Confuses factors and multiples",
+            "Adds the index to the number",
+            "Multiplies by the index",
+            "Believes adding two numbers finds their lowest common multiple",
+            "Does not know how to identify common factors from algebraic terms",
+            "Does not know the meaning of common, eg. common factor",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 131,
+                "name": "Does not think a number can be a factor of itself",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 239,
+                "name": "Finds a common multiple but not the lowest common multiple",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 710,
+                "name": "Confuses factors and multiples",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 952,
+                "name": "Adds the index to the number",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1072,
+                "name": "Multiplies by the index",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1473,
+                "name": "Believes adding two numbers finds their lowest common multiple",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1554,
+                "name": "Does not know how to identify common factors from algebraic terms",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1693,
+                "name": "Does not know the meaning of common, eg. common factor",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 42,
+        "question_text": "Calculate: i\u00b2 (where i is imaginary unit)",
+        "misconception_ids": [
+            609,
+            1510,
+            1621
+        ],
+        "misconception_names": [
+            "when dividing a fraction by an integer, multiplies the numerator by the integer",
+            "Believes subtraction is commutative ",
+            "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer"
+        ],
+        "misconception_details": [
+            {
+                "id": 609,
+                "name": "when dividing a fraction by an integer, multiplies the numerator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1510,
+                "name": "Believes subtraction is commutative ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1621,
+                "name": "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 43,
+        "question_text": "What is the vertex of y = x\u00b2 - 4x + 3?",
+        "misconception_ids": [
+            256,
+            911,
+            1214,
+            1380,
+            1510,
+            1937
+        ],
+        "misconception_names": [
+            "Does not reverse the order of operations when solving an equation",
+            "Only multiplies the numerical terms when expanding a bracket",
+            "When solving an equation, uses the same operation rather than the inverse.",
+            "When collecting like terms, assigns positivity or negativity incorrectly.",
+            "Believes subtraction is commutative ",
+            "Believes subtracting a positive number from a negative number makes the answer less negative"
+        ],
+        "misconception_details": [
+            {
+                "id": 256,
+                "name": "Does not reverse the order of operations when solving an equation",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 911,
+                "name": "Only multiplies the numerical terms when expanding a bracket",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1214,
+                "name": "When solving an equation, uses the same operation rather than the inverse.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1380,
+                "name": "When collecting like terms, assigns positivity or negativity incorrectly.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1510,
+                "name": "Believes subtraction is commutative ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1937,
+                "name": "Believes subtracting a positive number from a negative number makes the answer less negative",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 44,
+        "question_text": "Simplify: ln(e\u00b3)",
+        "misconception_ids": [
+            267,
+            346,
+            400,
+            438,
+            1072,
+            1116,
+            1256,
+            1416,
+            1540,
+            1644,
+            2078,
+            2398
+        ],
+        "misconception_names": [
+            "Writes the variable before the coefficient in an algebraic term",
+            "Does not understand how to multiply algebraic terms",
+            "Thinks multiplying a variable by a number is the same as raising that variable to the power of that number",
+            "Believes cubing a number means you multiply it by 3",
+            "Multiplies by the index",
+            "Multiplies coefficients and letters separately and writes as an addition",
+            "Believes the difference of 2 squares method of factorising also works for the addition of 2 squares",
+            "Adds instead of multiplies",
+            "Does not know how to simplify algebraic fractions",
+            "Confuses collecting like terms with multiplication",
+            "Simplifies a fraction by adding or subtracting the same amount from the numerator  and denominator",
+            "Thinks you can divide terms by different factors when simplifying an algebraic fraction"
+        ],
+        "misconception_details": [
+            {
+                "id": 267,
+                "name": "Writes the variable before the coefficient in an algebraic term",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 346,
+                "name": "Does not understand how to multiply algebraic terms",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 400,
+                "name": "Thinks multiplying a variable by a number is the same as raising that variable to the power of that number",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1072,
+                "name": "Multiplies by the index",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1116,
+                "name": "Multiplies coefficients and letters separately and writes as an addition",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1256,
+                "name": "Believes the difference of 2 squares method of factorising also works for the addition of 2 squares",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1416,
+                "name": "Adds instead of multiplies",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1540,
+                "name": "Does not know how to simplify algebraic fractions",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1644,
+                "name": "Confuses collecting like terms with multiplication",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2078,
+                "name": "Simplifies a fraction by adding or subtracting the same amount from the numerator  and denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2398,
+                "name": "Thinks you can divide terms by different factors when simplifying an algebraic fraction",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 45,
+        "question_text": "What is tan(45\u00b0)?",
+        "misconception_ids": [
+            438,
+            2481
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 46,
+        "question_text": "Calculate: lim(x\u21920) sin(x)/x",
+        "misconception_ids": [
+            438,
+            609,
+            1280,
+            1621,
+            1980,
+            2134,
+            2359
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "when dividing a fraction by an integer, multiplies the numerator by the integer",
+            "When multiplying fractions, multiplies the numerator and adds the denominator",
+            "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+            "When multiplying fractions, adds the numerators and the denominators",
+            "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+            "Believes division is commutative "
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 609,
+                "name": "when dividing a fraction by an integer, multiplies the numerator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1280,
+                "name": "When multiplying fractions, multiplies the numerator and adds the denominator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1621,
+                "name": "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1980,
+                "name": "When multiplying fractions, adds the numerators and the denominators",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2134,
+                "name": "when multiplying fractions multiplies by the reciprocal of the 2nd fraction instead",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2359,
+                "name": "Believes division is commutative ",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 47,
+        "question_text": "What is the derivative of x\u00b3?",
+        "misconception_ids": [
+            438,
+            2481
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 48,
+        "question_text": "Solve: log\u2082(x) = 3",
+        "misconception_ids": [
+            38,
+            107,
+            220,
+            438,
+            1214,
+            1566,
+            1803,
+            2481
+        ],
+        "misconception_names": [
+            "Believes the sides of an inequality can be switched without changing the direction of the sign",
+            "When expanding brackets, multiplies out the first term correctly but adds together the number outside the bracket with the second term inside the bracket.",
+            "Only multiplies the first term in the expansion of a bracket",
+            "Believes cubing a number means you multiply it by 3",
+            "When solving an equation, uses the same operation rather than the inverse.",
+            "Adds or subtracts from numerator first when solving an equation with a fraction",
+            "Believes they can divide by a variable without checking whether it could equal zero",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 38,
+                "name": "Believes the sides of an inequality can be switched without changing the direction of the sign",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 107,
+                "name": "When expanding brackets, multiplies out the first term correctly but adds together the number outside the bracket with the second term inside the bracket.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 220,
+                "name": "Only multiplies the first term in the expansion of a bracket",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1214,
+                "name": "When solving an equation, uses the same operation rather than the inverse.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1566,
+                "name": "Adds or subtracts from numerator first when solving an equation with a fraction",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1803,
+                "name": "Believes they can divide by a variable without checking whether it could equal zero",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 49,
+        "question_text": "What is the standard deviation if variance is 16?",
+        "misconception_ids": [
+            78,
+            261,
+            438,
+            495,
+            524,
+            657,
+            1416,
+            1558,
+            1642,
+            1920,
+            1976,
+            2175,
+            2316,
+            2481
+        ],
+        "misconception_names": [
+            "When multiplying a fraction by an integer, multiplies the denominator instead of the numerator",
+            "When multiplying just writes the numbers next to each other",
+            "Believes cubing a number means you multiply it by 3",
+            "Thinks converting an integer to a fraction means both the numerator and denominator are equal",
+            "Does not understand square root",
+            "Has completed only one of the two operations.",
+            "Adds instead of multiplies",
+            "Believes dividing a positive by a negative gives a positive answer",
+            "When adding roots, adds the numbers under the roots",
+            "Forgotten that anything to the power of 0 equals 1",
+            "When multiplying a fraction by an integer, multiplies both numerator and denominator by the integer",
+            "Mixes up squaring and multiplying by 2 or doubling, and not square rooted",
+            "Mixes up squaring and multiplying by 2 or doubling",
+            "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal"
+        ],
+        "misconception_details": [
+            {
+                "id": 78,
+                "name": "When multiplying a fraction by an integer, multiplies the denominator instead of the numerator",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 261,
+                "name": "When multiplying just writes the numbers next to each other",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 495,
+                "name": "Thinks converting an integer to a fraction means both the numerator and denominator are equal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 524,
+                "name": "Does not understand square root",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 657,
+                "name": "Has completed only one of the two operations.",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1416,
+                "name": "Adds instead of multiplies",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1558,
+                "name": "Believes dividing a positive by a negative gives a positive answer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1642,
+                "name": "When adding roots, adds the numbers under the roots",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1920,
+                "name": "Forgotten that anything to the power of 0 equals 1",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1976,
+                "name": "When multiplying a fraction by an integer, multiplies both numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2175,
+                "name": "Mixes up squaring and multiplying by 2 or doubling, and not square rooted",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2316,
+                "name": "Mixes up squaring and multiplying by 2 or doubling",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 2481,
+                "name": "When multiplying decimals, divides by the wrong power of 10 when reinserting the decimal",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    },
+    {
+        "question_id": 50,
+        "question_text": "Calculate: \u222bx dx",
+        "misconception_ids": [
+            438,
+            609,
+            1507,
+            1621
+        ],
+        "misconception_names": [
+            "Believes cubing a number means you multiply it by 3",
+            "when dividing a fraction by an integer, multiplies the numerator by the integer",
+            "Carries out operations from left to right regardless of priority order",
+            "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer"
+        ],
+        "misconception_details": [
+            {
+                "id": 438,
+                "name": "Believes cubing a number means you multiply it by 3",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 609,
+                "name": "when dividing a fraction by an integer, multiplies the numerator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1507,
+                "name": "Carries out operations from left to right regardless of priority order",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            },
+            {
+                "id": 1621,
+                "name": "When dividing a fraction by an integer, multiplies both the numerator and denominator by the integer",
+                "explanation": null,
+                "example": null,
+                "correction_strategy": null
+            }
+        ]
+    }
+]
